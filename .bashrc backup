@@ -110,7 +110,6 @@ alias mac='sudo ifconfig wlp0s20f3 down && sudo macchanger -r wlp0s20f3 && sudo 
 alias macshow='macchanger wlp0s20f3 -s'
 alias tailscale='sudo systemctl start tailscaled && sudo tailscale up --shields-up --accept-dns=false --accept-routes'
 alias clients='sudo tailscale status'
-alias dev='ssh root@172.31.125.4'
 alias wifi='nmtui'
 #Sensors
 alias gpu='optimus-manager --status'
@@ -130,7 +129,7 @@ alias dont='espeak -s 150 -v en+f2 "dont worry about it"'
 #No Use
 #alias speedtest='./librespeed-cli'
 #alias email='neomutt'
-alias spotify='cd /usr/share/applications && gtk-launch spotify-adblock.desktop && cd'
+alias spotify='cd /usr/share/applications && gtk-launch spotify-adblock.desktop'
 
 
 
